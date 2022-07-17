@@ -9,22 +9,14 @@
 
 
 
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/fontawesome-free/css/all.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/success_error_icon.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/jqvmap/jqvmap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/dist/css/adminlte.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/daterangepicker/daterangepicker.css')}}">
-    <link rel="stylesheet" href="{{asset('adminlte/plugins/summernote/summernote-bs4.css')}}">
-    <link rel="stylesheet" href="{{asset('bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css')}}">
-    <link href="{{asset('css/SourceSansPro.css')}}" rel="stylesheet">
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet"/>
-    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link href="{{asset("DataTables/css/select.dataTables.min.css")}}" rel="stylesheet"/>
-    <link href="{{asset("DataTables/css/buttons.dataTables.min.css")}}" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
+    <link rel="stylesheet" href="{{asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('plugins/jqvmap/jqvmap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
+    <link rel="stylesheet" href="{{asset('plugins/daterangepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('plugins/summernote/summernote-bs4.css')}}">
     <link rel="stylesheet" href=" https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 
     <style>
@@ -157,8 +149,6 @@
 
         }
     </style>
-    <link href="{{asset('emoji/emojionearea.min.css')}}" rel="stylesheet"/>
-    <link href="{{asset('css/main.css')}}" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
@@ -252,7 +242,7 @@
     </div>
 
 
-<script src="{{asset('adminlte/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('plugins/jquery-ui/jquery-ui.min.js')}}"></script>
 <script>
     window.deleteButtonTrans = '{{ trans("quickadmin.qa_delete_selected") }}';
     window.copyButtonTrans = '{{ trans("quickadmin.qa_copy") }}';
@@ -265,23 +255,20 @@
 <script>
     $.widget.bridge('uibutton', $.ui.button)
 </script>
-<script src="{{asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/chart.js/Chart.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/sparklines/sparkline.js')}}"></script>
-<script src="{{asset('adminlte/plugins/jqvmap/jquery.vmap.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/jqvmap/maps/jquery.vmap.world.js')}}"></script>
-<script src="{{asset('adminlte/plugins/jquery-knob/jquery.knob.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/moment/moment.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/daterangepicker/daterangepicker.js')}}"></script>
-<script src="{{asset('bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/summernote/summernote-bs4.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
-<script src="{{asset('adminlte/plugins/fastclick/fastclick.js')}}"></script>
-<script src="{{asset('adminlte/dist/js/adminlte.js')}}"></script>
-<script src="{{asset('adminlte/dist/js/demo.js')}}"></script>
-<script src="{{asset('js/select2.min.js')}}"></script>
-<script src="{{asset('js/sweetalert.min.js')}}"></script>
+<script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('plugins/sparklines/sparkline.js')}}"></script>
+<script src="{{asset('plugins/jqvmap/jquery.vmap.min.js')}}"></script>
+<script src="{{asset('plugins/jqvmap/maps/jquery.vmap.world.js')}}"></script>
+<script src="{{asset('plugins/jquery-knob/jquery.knob.min.js')}}"></script>
+<script src="{{asset('plugins/moment/moment.min.js')}}"></script>
+<script src="{{asset('plugins/daterangepicker/daterangepicker.js')}}"></script>
+<script src="{{asset('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js')}}"></script>
+<script src="{{asset('plugins/summernote/summernote-bs4.min.js')}}"></script>
+<script src="{{asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
+<script src="{{asset('plugins/fastclick/fastclick.js')}}"></script>
+<script src="{{asset('dist/js/adminlte.js')}}"></script>
+<script src="{{asset('dist/js/demo.js')}}"></script>
 
 
 
@@ -292,15 +279,11 @@
         border-radius: 50%;
     }
 </style>
-{{--}}<script src="/assets/SpiderWebtr/isAuth/isAuth.js"></script>{{--}}
 
-{{--}}endpopup{{--}}
 
 
 <script src=" https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 <script src=" https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
-<script src="{{asset('js/sweetalert.min.js')}}"></script>
-<script src="{{asset('emoji/emojionearea.min.js')}}"></script>
 
 <script>
     window.laravel_echo_port = '6001';
@@ -309,7 +292,6 @@
 <script src="//{{ Request::getHost() }}:6001/socket.io/socket.io.js"></script>
 <script src="{{ url('/js/laravel-echo-setup.js') }}" type="text/javascript"></script>
 @yield('javascript')
-<script src="{{asset('js/main.js')}}"></script>
 
 </body>
 </html>

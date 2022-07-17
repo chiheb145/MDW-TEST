@@ -18,7 +18,6 @@ class HomeController extends Controller
 
   public function index(Request $request)
   {
-
     if ($request->ajax()) {
       $length = request('length');
       $start = request('start');
