@@ -2,8 +2,6 @@
 /public/hot
 /public/adminlte
 /public/storage
-/public/bower_components
-/public/assets/addchat
 /storage/*.key
 /vendor
 .env
