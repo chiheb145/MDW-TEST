@@ -30,13 +30,20 @@ ASSET_URL="./public"
 database .env
 
 import the attached database mdw_db
+<ul>
+<li>DB_CONNECTION=mysql</li>
+<li>DB_HOST=127.0.0.1</li>
+<li>DB_PORT=3306</li>
+<li>DB_DATABASE=mdw_db</li>
+<li>DB_USERNAME=root</li>
+<li>DB_PASSWORD=</li>
+</ul>
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=mdw_db
-DB_USERNAME=root
-DB_PASSWORD=
+
+
+
+
+
 
 Start the local development server
 
