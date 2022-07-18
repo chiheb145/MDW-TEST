@@ -34,15 +34,7 @@ import the attached database mdw_db
 <li>DB_USERNAME=root</li>
 <li>DB_PASSWORD=</li>
 </ul>
-
-
-
-
-
-
-
 Start the local development server
-
     php artisan serve
 
 You can now access the server at http://localhost:8000
