@@ -23,10 +23,6 @@ Generate a new application key
 
     php artisan key:generate
 
-add this line in .env
-
-ASSET_URL="./public"
-
 database .env
 
 import the attached database mdw_db
